@@ -1,9 +1,5 @@
-.centrar {
-  display: block;
-  margin: 0 auto;
-}
 body{
-    background-image: image-set("bgd.webp");
+    background-image: image-set("assets/bgd.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,4 +44,10 @@ p{
 
 .chip img {
     display: block;
+}
+.mambo {
+  display: flex;          
+  align-items: center;    
+  gap: 20px;              
+  margin: 20px;
 }
