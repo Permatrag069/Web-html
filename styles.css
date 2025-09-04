@@ -1,0 +1,51 @@
+.centrar {
+  display: block;
+  margin: 0 auto;
+}
+body{
+    background-image: image-set("bgd.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); 
+    background-blend-mode: darken;
+}
+                
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color: #e9e611;
+}
+                
+h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: #e9e611;  
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+}
+                
+.chips {
+    list-style: none;   
+    padding: 0;
+    margin: 0;  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;          
+}
+
+.chip {
+    display: flex;
+    align-items: center;
+    gap: 5px;          
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.chip img {
+    display: block;
+}
